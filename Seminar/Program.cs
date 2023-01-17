@@ -37,3 +37,46 @@ Console.Write("Введите 2-e число : ");
     Console.WriteLine($"{m}" );
  }
 */
+// 2српособ
+/*
+Console.Clear();
+Console.Write("Введите 1-ое число: ");
+int n = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите 2-ое число: ");
+int m = Convert.ToInt32(Console.ReadLine());
+if (n % m == 0)
+    Console.WriteLine("yes");
+else
+    Console.WriteLine($"no, {n % m}");
+    */
+
+//Task 14 Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.
+
+/*
+Console.Write("Введите 1-e число : ");
+    int number1 = Convert.ToInt32(Console.ReadLine());
+if (number1 % 7 == 0 & number1 % 23 == 0)
+    {
+        Console.WriteLine("YES");
+    }
+else
+ { 
+    Console.WriteLine("No");
+ }
+*/
+
+//Task 16 Напишите программу, которая принимает на вход два числа и проверяет, является ли одно число квадратом другого.
+
+
+Console.Write("Введите 1-e число : ");
+    int number1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите 2-e число : ");
+    int number2 = Convert.ToInt32(Console.ReadLine());
+ if ( number1 * number1 == number2 || number2 * number2 == number1 )
+ {
+    Console.WriteLine("Yes");
+ }
+ else 
+ { 
+       Console.WriteLine("NO" );
+ }
