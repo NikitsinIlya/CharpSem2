@@ -80,3 +80,17 @@ Console.Write("Введите 2-e число : ");
  { 
        Console.WriteLine("NO" );
  }
+
+
+/* 
+
+К доп задаче 
+
+Console.Clear();
+int n = Convert.ToInt32(Console.ReadLine());
+while (n != 0)
+{
+    n = Convert.ToInt32(Console.ReadLine());
+}
+
+*/ 
