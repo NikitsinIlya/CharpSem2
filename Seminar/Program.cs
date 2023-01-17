@@ -55,7 +55,7 @@ else
 /*
 Console.Write("Введите 1-e число : ");
     int number1 = Convert.ToInt32(Console.ReadLine());
-if (number1 % 7 == 0 & number1 % 23 == 0)
+if (number1 % 7 == 0 && number1 % 23 == 0)
     {
         Console.WriteLine("YES");
     }
